@@ -20,7 +20,7 @@ terraform init
 terraform plan -out=planfile -var-file=$TFVarsFile
 
 # Apply the changes
-terraform apply planfile -var-file=$TFVarsFile
+terraform apply planfile
 ```
 
 3. To use the new backend, add the following Terraform settings to your
